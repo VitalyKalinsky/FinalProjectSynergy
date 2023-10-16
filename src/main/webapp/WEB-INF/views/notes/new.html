@@ -8,7 +8,7 @@
 	
 		<form th:object="${webNote}" th:action="@{/notes}" th:method="POST">
 			<label for="note">Enter note:</label>
-			<input type="text" th:field="*{note}" id="note" />
+			<input type="text" th:field="*{note}" id="note" required/>
 			<br/>
 			<input type="submit" value="Add note"/>
 		</form>

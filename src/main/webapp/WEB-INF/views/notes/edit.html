@@ -7,8 +7,8 @@
 	
 	<body>
 		<form th:method="PATCH" th:action="@{/notes/{id}(id=${webNote.getId()})}" th:object="${webNote}">
-			<label for="note">Enter note:</label>
-			<input type="text" th:field="*{note}" id="note"/>
+			<label for="edited">Enter note:</label>
+			<input type="text" id="edited" required th:field="*{note}"/>
 			<br/>
 			<input type="submit" value="Update note"/>
 		</form>
