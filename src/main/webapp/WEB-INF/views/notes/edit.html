@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>Update note</title>
+	</head>
+	
+	<body>
+		<form th:method="PATCH" th:action="@{/notes/{id}(id=${webNote.getId()})}" th:object="${webNote}">
+			<label for="note">Enter note:</label>
+			<input type="text" th:field="*{note}" id="note"/>
+			<br/>
+			<input type="submit" value="Update note"/>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>All notes</title>
+	</head>
+	<body>
+		<form action="notes/new">
+			<input type="submit" value="Create a new note"/>
+		</form>
+		<br/>
+		<div th:each="note : ${notes}">
+			<a th:href="@{/notes/{id} (id=${note.getId()})}"   
+			th:text="${note.getNote()}">note</a>
+		</div>
+
+	</body>
+</html>
