@@ -3,18 +3,26 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Note</title>
+		<link rel="stylesheet" type="text/css" href="/notes/URLToResourcesFolder/css/styles.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<p th:text="'Note ' + ${note.getId()}">ID</p>
-		<p th:text="${note.getNote()}">NOTE</p>
-		
-		<form th:action="@{/notes/{id}/edit(id=${note.getId()})}">
-			<input type="submit" value="Edit"/>
-		</form>
-		
-		<form th:method="DELETE" th:action="@{/notes/{id}(id=${note.getId()})}">
-			<input type="submit" value="Delete"/>
-		</form>
+		<div class="centered vert-centered" id="show">
+			<p th:text="'Note ' + ${note.getId()} + ': ' + ${note.getNote()}">ID</p>
+			<div>
+				<form th:action="@{/notes/{id}/edit(id=${note.getId()})}" class="oneline">
+					<input type="submit" value="Edit" class="form-submit-button"/>
+				</form>
+				
+				<form th:method="DELETE" th:action="@{/notes/{id}(id=${note.getId()})}" class="oneline">
+					<input type="submit" value="Delete" class="form-submit-button"/>
+				</form>
+			</div>
+
+		</div>
+
 
 	</body>
 </html>

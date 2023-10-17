@@ -3,14 +3,20 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Update note</title>
+		<link rel="stylesheet" type="text/css" href="/notes/URLToResourcesFolder/css/styles.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
 	</head>
 	
 	<body>
-		<form th:method="PATCH" th:action="@{/notes/{id}(id=${webNote.getId()})}" th:object="${webNote}">
-			<label for="edited">Enter note:</label>
-			<input type="text" id="edited" required th:field="*{note}"/>
-			<br/>
-			<input type="submit" value="Update note"/>
-		</form>
+		<div class="centered vert-centered">
+			<form th:method="PATCH" th:action="@{/notes/{id}(id=${webNote.getId()})}" th:object="${webNote}">
+				<label for="edited">Enter note:</label>
+				<input type="text" id="edited" required th:field="*{note}"/>
+				<br/>
+				<input type="submit" value="Update note" class="form-submit-button"/>
+			</form>
+		</div>
 	</body>
 </html>

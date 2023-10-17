@@ -3,16 +3,19 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>New note</title>
+		<link rel="stylesheet" type="text/css" href="/notes/URLToResourcesFolder/css/styles.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
 	</head>
 	<body>
-	
-		<form th:object="${webNote}" th:action="@{/notes}" th:method="POST">
-			<label for="note">Enter note:</label>
-			<input type="text" th:field="*{note}" id="note" required/>
-			<br/>
-			<input type="submit" value="Add note"/>
-		</form>
-
-	
+		<div class="centered vert-centered">
+			<form th:object="${webNote}" th:action="@{/notes}" th:method="POST">
+				<label for="note">Enter note:</label>
+				<input type="text" th:field="*{note}" id="note" required/>
+				<br/>
+				<input type="submit" value="Add note" class="form-submit-button"/>
+			</form>
+		</div>
 	</body>
 </html>
