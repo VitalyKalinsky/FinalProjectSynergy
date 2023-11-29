@@ -1,0 +1,5 @@
+ru\web\notes\config\NotesMvcDispatcherServletInitializer.class
+ru\web\notes\models\WebNote.class
+ru\web\notes\controllers\NotesController.class
+ru\web\notes\dao\WebNoteDAO.class
+ru\web\notes\config\NotesConfig.class
