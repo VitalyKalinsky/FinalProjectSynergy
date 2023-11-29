@@ -10,89 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46b2a6a7-20a3-4d24-afb2-eec0d31106df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/notes_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/notes_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_21_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_commons_1_10_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_observation_1_10_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_6_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_6_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_6_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_6_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_6_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_6_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_6_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_6_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_6_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring6_3_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/web/notes/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/web/notes/dao/ExampleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/web/notes/dao/NoteDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/web/notes/dao/NoteDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/dbcredits.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/web/notes/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/web/notes/dao/NoteDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/web/notes/dao/NoteDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/classes/ru/web/notes/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/classes/ru/web/notes/config/NotesConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/classes/ru/web/notes/config/NotesMvcDispatcherServletInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/classes/ru/web/notes/controllers/NotesController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/classes/ru/web/notes/dao/MySqlDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/classes/ru/web/notes/dao/WebNoteDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/classes/ru/web/notes/models/WebNote.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/lib/attoparser-2.0.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/lib/micrometer-commons-1.10.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/lib/micrometer-observation-1.10.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/lib/mysql-connector-j-8.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/lib/protobuf-java-3.21.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/lib/slf4j-api-2.0.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/lib/spring-aop-6.0.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/lib/spring-beans-6.0.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/lib/spring-context-6.0.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/lib/spring-core-6.0.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/lib/spring-expression-6.0.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/lib/spring-jcl-6.0.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/lib/spring-web-6.0.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/lib/spring-webmvc-6.0.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/lib/thymeleaf-3.1.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/lib/thymeleaf-spring6-3.1.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/views/notes/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/views/notes/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/views/notes/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/views/notes/show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/resources/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/notes/resources/dbcredits.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/web/notes/config/NotesConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/web/notes/config/NotesConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/web/notes/config/NotesMvcDispatcherServletInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/web/notes/config/NotesMvcDispatcherServletInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/web/notes/controllers/NotesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/web/notes/controllers/NotesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/web/notes/dao/NoteDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/web/notes/dao/NoteDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/dbcredits.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dbcredits.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/web/notes/controllers/NotesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/web/notes/controllers/NotesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/web/notes/dao/WebNoteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/web/notes/dao/WebNoteDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/web/notes/models/WebNote.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/web/notes/models/WebNote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/web/notes/dao/NoteDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/web/notes/dao/NoteDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/notes.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/notes.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/notes/WEB-INF/classes/ru/web/notes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/notes/WEB-INF/classes/ru/web/notes/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/notes/WEB-INF/classes/ru/web/notes/controllers/NotesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/notes/WEB-INF/classes/ru/web/notes/controllers/NotesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/notes/resources/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/notes/resources/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/notes/resources/dbcredits.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +97,7 @@
       <recent name="C:\Users\kalin\Desktop\eclipse-workspace\web9\notes\src\main\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.12">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="notes" />
@@ -322,7 +251,7 @@
       <workItem from="1701028150658" duration="11000" />
       <workItem from="1701191355792" duration="4355000" />
       <workItem from="1701200924114" duration="373000" />
-      <workItem from="1701201370729" duration="5082000" />
+      <workItem from="1701201370729" duration="8630000" />
     </task>
     <servers />
   </component>

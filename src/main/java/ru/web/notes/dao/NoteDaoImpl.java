@@ -1,5 +1,7 @@
 package ru.web.notes.dao;
 
+import org.springframework.stereotype.Component;
+import org.springframework.util.ResourceUtils;
 import ru.web.notes.models.WebNote;
 
 import java.io.BufferedReader;
@@ -9,7 +11,9 @@ import java.io.IOException;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
+@Component
 public class NoteDaoImpl implements NoteDao {
     private final String LOGIN;
     private final String PASSWORD;
@@ -20,14 +24,16 @@ public class NoteDaoImpl implements NoteDao {
     private static final String UPDATE = "UPDATE note SET note=? WHERE id=?";
 
     public NoteDaoImpl() {
-        File file = new File("src/main/webapp/resources/dbcredits.txt");
         try {
+            File file = ResourceUtils.getFile("classpath:dbcredits.txt");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             BufferedReader fileReader = new BufferedReader(new FileReader(file));
             LOGIN = fileReader.readLine();
             PASSWORD = fileReader.readLine();
-        } catch (IOException e) {
+        } catch (IOException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
+
     }
 
     private Connection getConnection() {

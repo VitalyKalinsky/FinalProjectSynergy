@@ -11,29 +11,29 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import ru.web.notes.dao.WebNoteDAO;
+import ru.web.notes.dao.NoteDaoImpl;
 import ru.web.notes.models.WebNote;
 
 @Controller
 @RequestMapping("/notes")
 public class NotesController {
-	
-	private final WebNoteDAO webNoteDAO;
+
+	private final NoteDaoImpl noteDao;
 	
 	@Autowired
-	public NotesController(WebNoteDAO webNoteDAO) {
-		this.webNoteDAO = webNoteDAO;
+	public NotesController(NoteDaoImpl noteDao) {
+		this.noteDao = noteDao;
 	}
 	
 	@GetMapping()
 	public String index(Model model) {
-		model.addAttribute("notes",webNoteDAO.index());
+		model.addAttribute("notes", noteDao.findAll());
 		return "notes/index";
 	}
 
 	@GetMapping("/{id}")
 	public String show(@PathVariable("id") int id, Model model) {
-		model.addAttribute("note", webNoteDAO.show(id));
+		model.addAttribute("note", noteDao.findById(id));
 		return "notes/show";
 	}
 	
@@ -45,25 +45,25 @@ public class NotesController {
 	
 	@PostMapping()
 	public String create(@ModelAttribute("webNote") WebNote webNote) {
-		webNoteDAO.save(webNote);
+		noteDao.insert(webNote);
 		return "redirect:/notes";
 	}
 
 	@GetMapping("/{id}/edit")
 	public String edit(Model model, @PathVariable("id") int id) {
-		model.addAttribute("webNote",webNoteDAO.show(id));
+		model.addAttribute("webNote", noteDao.findById(id));
 		return "notes/edit";
 	}
 	
 	@PatchMapping("/{id}")
 	public String update(@ModelAttribute("webNote") WebNote webNote, @PathVariable("id") int id) {
-		webNoteDAO.update(id, webNote);
+		noteDao.update(webNote);
 		return "redirect:/notes";
 	}
 	
 	@DeleteMapping("/{id}")
 	public String delete(@PathVariable("id") int id) {
-		webNoteDAO.delete(id);
+		noteDao.delete(id);
 		return "redirect:/notes";
 	}
 
